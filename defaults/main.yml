@@ -1,0 +1,38 @@
+---
+playbook_debug: False
+enable_remove_unwanted_containers: False
+enable_remove_unwanted_containers_img: False
+docker_containers: []
+
+# docker_containers:
+#   - name: redis
+#   - name: mystuff
+#     image: myrepository/mydocker:myversion
+#     published_ports: 80:80
+#     env:
+#       HELLO: WORLD
+#   - name: 
+#     image: 
+#     ignore_image: 
+#     pull: 
+#     state: 
+#     cpu_period: 
+#     cpu_quota: 
+#     cpu_shares: 
+#     memory: 
+#     memory_reservation: 
+#     memory_swappiness: 
+#     memory_swap: 
+#     recreate: 
+#     restart_policy: 
+#     links: 
+#     network_mode: 
+#     networks: 
+#     detach: 
+#     volumes: 
+#     published_ports: 
+#     ulimits: 
+#     env: 
+#     env_file: 
+#     log_driver: 
+#     command: 
