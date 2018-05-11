@@ -5,6 +5,7 @@ It includes container's removal when not defined in the list
 
 ## Prerequisites
 
+Ansible >= 2.2
 
 python >= 2.6
 
