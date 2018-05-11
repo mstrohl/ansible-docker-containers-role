@@ -27,7 +27,7 @@
 - name: Install python-docker  on Debian based distribution
   apt: 
     name: python-docker
-    update_cache: no
+    update_cache: yes
   when: ansible_os_family == 'Debian' and is_pip_docker_installed.stdout == '' and is_apt_docker_installed.stdout == ''
   
 - name: Check environment execution
